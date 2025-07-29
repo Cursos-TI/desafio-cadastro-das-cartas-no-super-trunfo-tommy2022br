@@ -3,9 +3,9 @@
     int main() {
         printf("Desafio Super Trunfo! \n");
          
-        char Estado, Bahia [10];
-        char Codigo, A01 [4];       
-        char Cidade, Salvador [50];
+        char nomeBahia[50];
+        char nomeCodigo[4];       
+        char nomeSalvador[50];
         int Populacao = 14.850;
         float Area = 693;
         float Pib = 62.9;
@@ -24,29 +24,29 @@
         printf("\nDigite o Estado (uma letra de A a H): ");
         scanf(" %c", &Estado);
 
-        printf("Digite o código da carta: ");
-        scanf(" %s\n", &Codigo);
+        printf("\nDigite o código da carta: ");
+        scanf(" %s", &Codigo);
 
-        printf("Digite o nome da cidade: ");
-        scanf(" %s\n", &Cidade);
+        printf("\nDigite o nome da cidade: ");
+        scanf(" %s", &Cidade);
 
-        printf("Digite a população da cidade: ");
-        scanf(" %d\n", &Populacao);
+        printf("\nDigite a população da cidade: ");
+        scanf(" %d", &Populacao);
 
-        printf("Area: \n");
-        scanf("%f\n", &Area);
+        printf("\nArea: \n");
+        scanf("%f", &Area);
 
-        printf("Pib: \n");
-        scanf("%f\n", &Pib);      
+        printf("\nPib: \n");
+        scanf("%f", &Pib);      
 
-        printf("Pontosturisticos: \n");
-        scanf("%d\n", &Pontosturisticos);
+        printf("\nPontosturisticos: \n");
+        scanf("%d", &Pontosturisticos);
 
         printf("Carta 1! \n");
         printf("Estado: %s \n", Estado);
         printf("Codigo da Carta: %s \n", Estado, Codigo);
         printf("Cidade: %s \n", Cidade);
-        printf("Populacao: %f \n", Populacao);
+        printf("Populacao: %d \n", Populacao);
         printf("Area: %f \n", Area);
         printf("Pib: %f \n", Pib);
 
@@ -54,7 +54,7 @@
         printf("Estado: %s \n", Estado);
         printf("Codigo da Carta: %s \n", Estado, Codigo);
         printf("Cidade: %s \n", Cidade);
-        printf("Populacao: %f \n", Populacao);
+        printf("Populacao: %d \n", Populacao);
         printf("Area: %f \n", Area);
         printf("Pib: %f \n", Pib);
 
