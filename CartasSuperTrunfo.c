@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
     
     int main() {
         printf("Desafio Super Trunfo! \n");
@@ -8,24 +8,24 @@
         char nomeCodigo_1[4];       
         char nomeSalvador[50];
         int Populacao_carta1;
-        float Area1 = 693;
-        float Pib1 = 62.9;
+        float Area1;
+        float Pib1;
         int Pontosturisticos1 = 50;
 
         char nomeSaoPaulo[50];
         char nomeCodigo_2[5];       
         char nomeEmbu[50];
         int Populacao_carta2;
-        float Area2 = 70.398;
-        float Pib2 = 14.314;
+        float Area2;
+        float Pib2;
         int Pontosturisticos2 = 35;
 
 
         printf("\nDigite o Estado (uma letra de A a H): ");
-        scanf(" %c", nomeBahia);
+        scanf(" %s \n", nomeBahia);
 
-        printf("\nDigite o Estado (uma letra de A a H):")
-        scanf(" %c", nomeSaoPaulo); 
+        printf("\nDigite o Estado (uma letra de A a H):");
+        scanf(" %s \n", nomeSaoPaulo); 
 
         printf("\nDigite o código da carta: ");
         scanf(" %s", nomeCodigo_1);
@@ -34,10 +34,10 @@
         scanf(" %s", nomeCodigo_2);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" ", nomeSalvador, stdin);
+        scanf(" "), nomeSalvador, stdin);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" ", nomeEmbu, stdin);
+        scanf(" "), nomeEmbu, stdin);
 
         printf("\nDigite a população da cidade: ");
         scanf(" %d", &Populacao_carta1);
