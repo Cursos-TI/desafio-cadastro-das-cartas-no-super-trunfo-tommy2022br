@@ -30,14 +30,38 @@
         printf("\nDigite o nome da cidade: ");
         scanf(" %s", nomeSalvador);
 
+        printf("\nDigite a Populacao");
+        scanf(" %d", &Populacao_carta1);
+
         printf("\nArea: ");
         scanf("%f", &Area1);
 
         printf("\nPib: ");
         scanf("%f", &Pib1);  
-               
+                
         printf("\nPontosturisticos: ");
-        scanf("%s", Pontosturisticos1);
+        scanf("%d", &Pontosturisticos2);
+
+        printf("\nDigite o nome completo do Estado): ");
+        scanf(" %s", nomeSaoPaulo);
+
+        printf("\nDigite o código da carta: ");
+        scanf(" %s", nomeCodigo_2);
+
+        printf("\nDigite o nome da cidade: ");
+        scanf(" %s", nomeEmbu);
+
+        printf("\nDigite a Populacao");
+        scanf(" %d", &Populacao_carta2);
+
+        printf("\nArea: ");
+        scanf("%f", &Area2);
+
+        printf("\nPib: ");
+        scanf("%f", &Pib2);  
+                
+        printf("\nPontosturisticos: ");
+        scanf("%d", &Pontosturisticos2);
 
                 printf("Carta 1! \n");
         printf("Estado: %s \n", nomeBahia);
