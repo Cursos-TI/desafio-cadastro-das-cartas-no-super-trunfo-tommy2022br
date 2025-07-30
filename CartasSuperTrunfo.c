@@ -7,21 +7,21 @@
         char nomeBahia[50];
         char nomeCodigo_1[4];       
         char nomeSalvador[50];
-        int Populacao_carta1;
-        float Area1;
-        float Pib1;
-        int Pontosturisticos1;
+        int Populacao_carta1 = 2418;
+        float Area1 = 693.442;
+        float Pib1 = 62.954;
+        int Pontosturisticos1 = 50;
 
         char nomeSaoPaulo[50];
         char nomeCodigo_2[5];       
         char nomeEmbu[50];
-        int Populacao_carta2;
-        float Area2;
-        float Pib2;
-        int Pontosturisticos2;
+        int Populacao_carta2 =  307.516;
+        float Area2 = 70.398;
+        float Pib2 =  14.314;
+        int Pontosturisticos2 = 30;
 
 
-        printf("\nDigite o nome completo do Estado): ");
+        printf("\nDigite o nome completo do Estado: ");
         scanf(" %s", nomeBahia);
 
         printf("\nDigite o código da carta: ");
@@ -38,9 +38,9 @@
 
         printf("\nPib: ");
         scanf("%f", &Pib1);  
-                
-        printf("\nPontosturisticos: ");
-        scanf("%d", &Pontosturisticos2);
+
+        printf("\nPontos Turisticos:" );
+        scanf(" %d", Pontosturisticos1);
 
         printf("\nDigite o nome completo do Estado): ");
         scanf(" %s", nomeSaoPaulo);
@@ -59,11 +59,14 @@
 
         printf("\nPib: ");
         scanf("%f", &Pib2);  
-                
-        printf("\nPontosturisticos: ");
-        scanf("%d", &Pontosturisticos2);
 
-                printf("Carta 1! \n");
+        printf("\nPontos Turisticos:" );
+        scanf(" %d", Pontosturisticos2);
+
+                
+                        
+
+        printf("Carta 1! \n");
         printf("Estado: %s \n", nomeBahia);
         printf("Codigo da Carta: %s \n", nomeCodigo_1);
         printf("Cidade: %s \n", nomeSalvador);
@@ -78,10 +81,6 @@
         printf("Populacao: %d \n", Populacao_carta2);
         printf("Area: %f \n", Area2);
         printf("Pib: %f \n", Pib2);
-
-  
-
-
 
 
     return 0;
