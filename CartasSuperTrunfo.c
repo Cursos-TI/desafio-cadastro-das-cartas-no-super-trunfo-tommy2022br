@@ -10,7 +10,7 @@
         int Populacao_carta1;
         float Area1;
         float Pib1;
-        int Pontosturisticos1 = 50;
+        int Pontosturisticos1;
 
         char nomeSaoPaulo[50];
         char nomeCodigo_2[5];       
@@ -18,52 +18,28 @@
         int Populacao_carta2;
         float Area2;
         float Pib2;
-        int Pontosturisticos2 = 35;
+        int Pontosturisticos2;
 
 
-        printf("\nDigite o Estado (uma letra de A a H): ");
-        scanf(" %c \n", &nomeBahia);
-
-        printf("\nDigite o Estado (uma letra de A a H):");
-        scanf(" %c \n", &nomeSaoPaulo); 
+        printf("\nDigite o nome completo do Estado): ");
+        scanf(" %s", nomeBahia);
 
         printf("\nDigite o código da carta: ");
         scanf(" %s", nomeCodigo_1);
 
-        printf("\nDigite o código da carta: ");
-        scanf(" %s", nomeCodigo_2);
-
         printf("\nDigite o nome da cidade: ");
-        scanf(" %s \n", nomeSalvador);
+        scanf(" %s", nomeSalvador);
 
-        printf("\nDigite o nome da cidade: ");
-        scanf(" %s \n", nomeEmbu);
-
-        printf("\nDigite a população da cidade: ");
-        scanf(" %d", &Populacao_carta1);
-
-        printf("\nDigite a população da cidade: ");
-        scanf(" %d", &Populacao_carta2);
-
-        printf("\nArea: \n");
+        printf("\nArea: ");
         scanf("%f", &Area1);
 
-        printf("\nArea: \n");
-        scanf("%f", &Area2);
-
-        printf("\nPib: \n");
+        printf("\nPib: ");
         scanf("%f", &Pib1);  
-        
-        printf("\nPib: \n");
-        scanf("%f", &Pib2); 
+               
+        printf("\nPontosturisticos: ");
+        scanf("%s", Pontosturisticos1);
 
-        printf("\nPontosturisticos: \n");
-        scanf("%d", &Pontosturisticos1);
-
-        printf("\nPontosturisticos: \n");
-        scanf("%d", &Pontosturisticos2);
-
-        printf("Carta 1! \n");
+                printf("Carta 1! \n");
         printf("Estado: %s \n", nomeBahia);
         printf("Codigo da Carta: %s \n", nomeCodigo_1);
         printf("Cidade: %s \n", nomeSalvador);
