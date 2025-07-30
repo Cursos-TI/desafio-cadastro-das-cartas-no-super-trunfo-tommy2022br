@@ -34,10 +34,10 @@
         scanf(" %s", nomeCodigo_2);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" "), nomeSalvador, stdin);
+        fgets(nomeSalvador, sizeof(nomeSalvador, stdin);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" "), nomeEmbu, stdin);
+        fgets(nomeEmbu, sizeof(nomeEmbu, stdin);
 
         printf("\nDigite a população da cidade: ");
         scanf(" %d", &Populacao_carta1);
