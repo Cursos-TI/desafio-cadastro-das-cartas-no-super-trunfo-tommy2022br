@@ -22,10 +22,10 @@
 
 
         printf("\nDigite o Estado (uma letra de A a H): ");
-        scanf(" %s \n", nomeBahia);
+        scanf(" %c \n", &nomeBahia);
 
         printf("\nDigite o Estado (uma letra de A a H):");
-        scanf(" %s \n", nomeSaoPaulo); 
+        scanf(" %c \n", &nomeSaoPaulo); 
 
         printf("\nDigite o código da carta: ");
         scanf(" %s", nomeCodigo_1);
@@ -34,10 +34,10 @@
         scanf(" %s", nomeCodigo_2);
 
         printf("\nDigite o nome da cidade: ");
-        fgets(nomeSalvador, sizeof(nomeSalvador, stdin);
+        scanf(" %s \n", nomeSalvador);
 
         printf("\nDigite o nome da cidade: ");
-        fgets(nomeEmbu, sizeof(nomeEmbu, stdin);
+        scanf(" %s \n", nomeEmbu);
 
         printf("\nDigite a população da cidade: ");
         scanf(" %d", &Populacao_carta1);
