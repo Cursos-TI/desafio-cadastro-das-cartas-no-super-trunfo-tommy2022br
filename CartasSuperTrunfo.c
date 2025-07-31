@@ -70,7 +70,7 @@
         printf("Estado: %s \n", nomeBahia);
         printf("Codigo da Carta: %s \n", nomeCodigo_1);
         printf("Cidade: %s \n", nomeSalvador);
-        printf("Populacao_carta1: %d \n", Populacao_carta1);
+        printf("Populacao: %d \n", Populacao_carta1);
         printf("Area: %.2f \n", Area1);
         printf("Pib: %.2f \n", Pib1);
         printf("Pontos Turisticos: %d \n", Pontosturisticos1);
