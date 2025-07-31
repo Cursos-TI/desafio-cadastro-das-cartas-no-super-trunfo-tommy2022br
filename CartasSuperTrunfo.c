@@ -73,7 +73,7 @@
         printf("Populacao_carta1: %d \n", Populacao_carta1);
         printf("Area: %f \n", Area1);
         printf("Pib: %f \n", Pib1);
-        printf("Pontos Turisticos: %d \\n", Pontosturisticos1);
+        printf("Pontos Turisticos: %d \n", Pontosturisticos1);
 
         printf("Carta 2! \n");
         printf("Estado: %s \n", nomeSaoPaulo);
@@ -82,7 +82,7 @@
         printf("Populacao: %d \n", Populacao_carta2);
         printf("Area: %f \n", Area2);
         printf("Pib: %f \n", Pib2);
-        printf("Pontos Turisticos: %d \\n", Pontosturisticos2);
+        printf("Pontos Turisticos: %d \n", Pontosturisticos2);
         
 
 
