@@ -87,13 +87,13 @@
         printf("Pib: %.2f \n", Pib2);
         printf("Pontos Turisticos: %d \n", Pontosturisticos2);
         
-        media1 = (float)(Populacao_carta1 / Area1) /2;
-        media2 = (float)(Populacao_carta2 / Area2) /2;
+        media1 = (float)(Populacao_carta1 / Area1) /;
+        media2 = (float)(Populacao_carta2 / Area2) /;
         printf("Densidade Populacional Salvador é: %f.2 \n", media1);
         printf("Densidade Populacional Embu é: %f.2 \n", media2);
 
-        media3 = (float)(Populacao_carta1 / PibCapita1) /2;
-        media4 = (float)(Populacao_carta2/ PibCapita2) /2;
+        media3 = (float)(Populacao_carta1 / PibCapita1) /;
+        media4 = (float)(Populacao_carta2/ PibCapita2) /;
         printf("Pib Percapita Salvador é: %f.2 \n", media3);
         printf("Pib Percaita Embu é: %f.2", media4);
         
