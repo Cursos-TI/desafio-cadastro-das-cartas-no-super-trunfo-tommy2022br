@@ -4,7 +4,7 @@
     int main() {
         printf("Desafio Super Trunfo! \n");
 
-        float media; 
+        float media1, media2, media3, media4; 
         char nomeBahia[50];
         char nomeCodigo_1[4];       
         char nomeSalvador[50];
@@ -18,7 +18,7 @@
         char nomeSaoPaulo[50];
         char nomeCodigo_2[5];       
         char nomeEmbu[50];
-        int Populacao_carta2 =  307.516;
+        double Populacao_carta2 =  307.516;
         float Area2 = 70.398;
         float Pib2 =  14.314;
         int Pontosturisticos2 = 30;
@@ -27,13 +27,13 @@
 
 
         printf("\nDigite o nome completo do Estado: ");
-        scanf(" %s", nomeBahia);
+        scanf("%s", nomeBahia);
 
         printf("\nDigite o código da carta: ");
-        scanf(" %s", nomeCodigo_1);
+        scanf("%s", nomeCodigo_1);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" %s", nomeSalvador);
+        scanf("%s", nomeSalvador);
 
         printf("\nDigite a Populacao: ");
         scanf(" %d", &Populacao_carta1);
@@ -47,23 +47,17 @@
         printf("\nPontos Turisticos:" );
         scanf(" %d", &Pontosturisticos1);
 
-        printf("\nDensidade Populacional1:");
-        scanf("%f", &DensidadePopulacional1);
-
-        printf("\nPib Per Capita: ");
-        scanf("%f", &PibCapita1);
-
         printf("\nDigite o nome completo do Estado): ");
-        scanf(" %s", nomeSaoPaulo);
+        scanf("%s", nomeSaoPaulo);
 
         printf("\nDigite o código da carta: ");
         scanf(" %s", nomeCodigo_2);
 
         printf("\nDigite o nome da cidade: ");
-        scanf(" %s", nomeEmbu);
+        scanf("%s", nomeEmbu);
 
         printf("\nDigite a Populacao: ");
-        scanf(" %d", &Populacao_carta2);
+        scanf("%f", &Populacao_carta2);
 
         printf("\nArea: ");
         scanf("%f", &Area2);
@@ -74,13 +68,7 @@
         printf("\nPontos Turisticos: ");
         scanf(" %d", &Pontosturisticos2);
 
-        printf("\nDensidade Populacional1: ");
-        scanf(" %f", &DensidadePopulacional2);
-
-        printf("\nPib Per Capita: ");
-        scanf("%f", &PibCapita2);                
-                        
-
+        
         printf("Carta 1! \n");
         printf("Estado: %s \n", nomeBahia);
         printf("Codigo da Carta: %s \n", nomeCodigo_1);
@@ -89,9 +77,7 @@
         printf("Area: %.2f \n", Area1);
         printf("Pib: %.2f \n", Pib1);
         printf("Pontos Turisticos: %d \n", Pontosturisticos1);
-        printf("Densidade Populacional: %.2f", DensidadePopulacional1);
-        printf(" PIB per Capita: %.2f", PibCapita1);
-
+       
         printf("Carta 2! \n");
         printf("Estado: %s \n", nomeSaoPaulo);
         printf("Codigo da Carta: %s \n", nomeCodigo_2);
@@ -100,16 +86,16 @@
         printf("Area: %.2f \n", Area2);
         printf("Pib: %.2f \n", Pib2);
         printf("Pontos Turisticos: %d \n", Pontosturisticos2);
-        printf("Densidade Populacional: %.2f", DensidadePopulacional2);
-        printf(" PIB per Capita: %.2f", PibCapita2);
+        
+        media1 = (float)(Populacao_carta1 / Area1) /2;
+        media2 = (float)(Populacao_carta2 / Area2) /2;
+        printf("Densidade Populacional Salvador é: %f.2 \n", media1);
+        printf("Densidade Populacional Embu é: %f.2 \n", media2);
 
-        media = (float)(Populacao_carta1 / Area1) /2;
-        media = (float)(Populacao_carta2 / Area2) /2;
-        printf("Densidade Populacional é: %f.2 \n", media);
-
-        media = (float)(Populacao_carta1 / PibCapita1) /2;
-        media = (float)(Populacao_carta2/ PibCapita2) /2;
-        printf("Pib Percapita é: %f.2 \n", media);
+        media3 = (float)(Populacao_carta1 / PibCapita1) /2;
+        media4 = (float)(Populacao_carta2/ PibCapita2) /2;
+        printf("Pib Percapita Salvador é: %f.2 \n", media3);
+        printf("Pib Percaita Embu é: %f.2", media4);
         
 
         
