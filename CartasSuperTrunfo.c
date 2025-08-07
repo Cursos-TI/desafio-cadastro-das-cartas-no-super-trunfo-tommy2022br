@@ -62,7 +62,7 @@
         printf("\nDigite o nome da cidade: ");
         scanf(" %s", nomeEmbu);
 
-        printf("\nDigite a Populacao");
+        printf("\nDigite a Populacao: ");
         scanf(" %d", &Populacao_carta2);
 
         printf("\nArea: ");
@@ -71,10 +71,10 @@
         printf("\nPib: ");
         scanf("%f", &Pib2);  
 
-        printf("\nPontos Turisticos:" );
+        printf("\nPontos Turisticos: ");
         scanf(" %d", &Pontosturisticos2);
 
-        printf("\nDensidade Populacional1:");
+        printf("\nDensidade Populacional1: ");
         scanf(" %f", &DensidadePopulacional2);
 
         printf("\nPib Per Capita: ");
@@ -105,11 +105,11 @@
 
         media = (float)(Populacao_carta1 / Area1) /2;
         media = (float)(Populacao_carta2 / Area2) /2;
-        printf("A soma de População / Area é: %f.2", media);
+        printf("Densidade Populacional é: %f.2 \n", media);
 
-        media = (float)(Pib1 / PibCapita1) /2;
-        media = (float)(Pib2 / PibCapita2) /2;
-        printf("A soma do Pib / Pib Percapita é: %f.2", media);
+        media = (float)(Populacao_carta1 / PibCapita1) /2;
+        media = (float)(Populacao_carta2/ PibCapita2) /2;
+        printf("Pib Percapita é: %f.2 \n", media);
         
 
         
