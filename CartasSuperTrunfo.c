@@ -18,7 +18,7 @@
         char nomeSaoPaulo[50];
         char nomeCodigo_2[4];       
         char nomeEmbu[50];
-        unsigned long int Populacao_carta2 =  307.516;
+        double Populacao_carta2 =  307.516;
         float Area2 = 70.398;
         float Pib2 =  14.314;
         int Pontosturisticos2 = 30;
@@ -57,7 +57,7 @@
         scanf("%s", nomeEmbu);
 
         printf("\nDigite a Populacao: ");
-        scanf("%lu", &Populacao_carta2);
+        scanf("%f", &Populacao_carta2);
 
         printf("\nArea: ");
         scanf("%f", &Area2);
@@ -82,7 +82,7 @@
         printf("Estado: %s \n", nomeSaoPaulo);
         printf("Codigo da Carta: %s \n", nomeCodigo_2);
         printf("Cidade: %49 \n", nomeEmbu);
-        printf("Populacao: %d \n", Populacao_carta2);
+        printf("Populacao: %.2f \n", Populacao_carta2);
         printf("Area: %.2f \n", Area2);
         printf("Pib: %.2f \n", Pib2);
         printf("Pontos Turisticos: %d \n", Pontosturisticos2);
@@ -91,12 +91,9 @@
         printf("Densidade Populacional Embu: %.2f \n", Populacao_carta2 / Area2);
         printf("Pib per Capita Embu: %.2f \n", Pib2 / Populacao_carta2);
         
-
-        media = (float)(Populacao_carta1 + Area1 + Pib1) / 3;
-        media = (float)(Populacao_carta2 + Area2 + Pib2) / 3;
-
-        
-
+         media = (float) (Populacao_carta1 + Area1) / 2;
+         (Pib1 + DensidadePopulacional1) / 2; (Populacao_carta2 + Area2) / 2;
+         (Pib2 + DensidadePopulacional2) / 2;
 
     return 0;
 }
