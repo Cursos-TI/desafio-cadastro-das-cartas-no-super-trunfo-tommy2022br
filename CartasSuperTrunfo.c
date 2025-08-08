@@ -72,7 +72,7 @@
         printf("Carta 1! \n");
         printf("Estado: %s \n", nomeBahia);
         printf("Codigo da Carta: %s \n", nomeCodigo_1);
-        printf("Cidade: %s \n", nomeSalvador);
+        printf("Cidade: %49 \n", nomeSalvador);
         printf("Populacao: %d \n", Populacao_carta1);
         printf("Area: %.2f \n", Area1);
         printf("Pib: %.2f \n", Pib1);
@@ -81,7 +81,7 @@
         printf("Carta 2! \n");
         printf("Estado: %s \n", nomeSaoPaulo);
         printf("Codigo da Carta: %s \n", nomeCodigo_2);
-        printf("Cidade: %s \n", nomeEmbu);
+        printf("Cidade: %49 \n", nomeEmbu);
         printf("Populacao: %d \n", Populacao_carta2);
         printf("Area: %.2f \n", Area2);
         printf("Pib: %.2f \n", Pib2);
@@ -92,12 +92,8 @@
         printf("Pib per Capita Embu: %.2f \n", Pib2 / Populacao_carta2);
         
 
-        media = DensidadePopulacional1 = Populacao_carta1 / Area1; 
-        PibCapita1 = Pib1 / Populacao_carta1;
-
-        media = DensidadePopulacional2= Populacao_carta2 / Area2;
-        PibCapita2 = Pib2 / Populacao_carta2;
-        
+        media = (float)(Populacao_carta1 + Area1 + Pib1) / 3;
+        media = (float)(Populacao_carta2 + Area2 + Pib2) / 3;
 
         
 
